@@ -139,10 +139,7 @@ describe TOH do
       expect(game.third_pole).to eq([1])
     end
   end
-  # it "asks user for input" do
-  #   expect(game).to receive(:gets)
-  #   game.move
-  # end
+
   describe "#won" do
     it "knows game is still running" do
       expect(game.won?).to eq(false)
