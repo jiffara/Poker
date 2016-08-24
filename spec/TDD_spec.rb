@@ -155,7 +155,6 @@ describe TOH do
   describe "#move" do
     it "moves the disks" do
       game.move([0, 1])
-      #will be moving from
       game.move([0, 2])
       expect(game.towers).to eq([[3], [1], [2]])
     end
